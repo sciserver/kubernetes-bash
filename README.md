@@ -16,13 +16,16 @@ will be modified to indicate what your working context is:
 kc
 
 # select a namespace (if you are allowed)
-kn
+kn {namespace}
 
 # list pods
 kp
 
 # get logs
-kl
+kl {pattern}
+
+# exec into a container
+ke {pattern}
 
 # do any kubernetes action in the set namespace, for example:
 k get deployments
